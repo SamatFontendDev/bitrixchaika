@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru" class="html_bg_e5e3df">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />
+		<link rel="stylesheet" href="/fonts/stylesheet.css">
+		<link rel="stylesheet" href="/main.css">
+	</head>
+	<body>
+        <nav class="nav nav--mobile">
+			<ul class="nav__list">
+				<li class="nav__item"><a class="nav__link" href="#">Магазин</a></li>
+				<li class="nav__item"><a class="nav__link" href="#">Лукбук</a></li>
+				<li class="nav__item"><a class="nav__link" href="#">Распродажа</a></li>
+				<li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
+			</ul>
+			<div class="nav-footer">
+				<div class="nav-footer__row">
+					<ul class="footer__list">
+						<li class="footer__item footer__item_mb_10"><a class="footer__link" href="#">Поддержка</a></li>
+						<li class="footer__item footer__item_mb_10"><a class="footer__link" href="#">Доставка и Возврат</a></li>
+						<li class="footer__item footer__item_mb_10"><a class="footer__link" href="#">Публичная Оферта</a></li>
+						<li class="footer__item footer__item_mb_10"><a class="footer__link" href="#">Контакты</a></li>
+						<li class="footer__item footer__item_mb_10"><a class="footer__link" href="#">Инстаграм</a></li>
+					</ul>
+				</div>
+				<div class="nav-footer__row">
+					<ul class="footer__list">
+						<li class="footer__item"><a class="footer__link" href="#">Подписаться на Рассылку</a></li>
+					</ul>
+				</div>
+				<div class="nav-footer__row">
+					<ul class="footer__list footer__list_flex_direction_row">
+						<li class="footer__item footer__item_mr_20"><span>Валюта: </span><a class="footer__link footer__link--big" href="#">РУБ</a></li>
+						<li class="footer__item"><span>Язык: </span><a class="footer__link footer__link--big" href="#">РУС</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="wrapper">
+			<div class="maincontent">
+                <div class="cart-preview">
+                    <div class="cart-preview__row">
+                        <div class="cart-preview__top">
+                            <div class="cart-preview__coll">
+                                <span class="cart-preview-text">Cart</span>
+                                <span class="cart-preview-text">2 Items</span>
+                            </div>
+                            <div class="cart-preview__coll">
+                                <div class="cart-preview-close">
+                                    <img src="/images/close.png" alt="" class="cart-preview-close__img">
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="cart-preview__list">
+                            <li class="cart-preview__item">
+                                <div class="cart-preview-product">
+                                    <div class="cart-preview-product__coll">
+                                        <div class="cart-preview-product__pic">
+                                            <img src="/images/cart-preview/cart-preview1.jpg" alt="" class="cart-preview-product__img">
+                                        </div>
+                                    </div>
+                                    <div class="cart-preview-product__coll">
+                                        <div class="cart-preview-product__info">
+                                            <div class="mb_30">
+                                                <div class="cart-preview-product__title">Brown straight-leg pants</div>
+                                                <div class="size size_color_grey">S</div>
+                                                <div class="price">
+                                                    <span>2 500</span>
+                                                    <span class="currency">rub</span>
+                                                </div>
+                                            </div>
+                                            <div class="remove-btn">Remove</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cart-preview__item">
+                                <div class="cart-preview-product">
+                                    <div class="cart-preview-product__coll">
+                                        <div class="cart-preview-product__pic">
+                                            <img src="/images/cart-preview/cart-preview2.jpg" alt="" class="cart-preview-product__img">
+                                        </div>
+                                    </div>
+                                    <div class="cart-preview-product__coll">
+                                        <div class="cart-preview-product__info">
+                                            <div class="mb_30">
+                                                <div class="cart-preview-product__title">Brown straight-leg pants</div>
+                                                <div class="size size_color_grey">S</div>
+                                                <div class="price">
+                                                    <span>2 500</span>
+                                                    <span class="currency">rub</span>
+                                                </div>
+                                            </div>
+                                            <div class="remove-btn">Remove</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cart-preview__bottom">
+                        <div class="subtotal__row">
+                            <div class="subtotal__coll">
+                                <div>Subtotal</div>
+                            </div>
+                            <div class="subtotal__coll">
+                                <div class="price">
+                                    <span>2 500</span>
+                                    <span class="currency">rub</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-btn-wrap">
+                            <div class="product-btn">Add to Cart</div>
+                        </div>
+                    </div>
+                </div>
+				<div class="header">
+					<div class="container container_pos_rel"> 
+						<div class="header__row">
+							<div class="header__coll">
+								<div class="hamburger">
+									<div class="hamburger-line"></div>
+									<div class="hamburger-line"></div>
+									<div class="hamburger-line"></div>
+								</div>
+								<nav class="nav">
+									<ul class="nav__list">
+										<li class="nav__item"><a class="nav__link" href="/shop.html">Магазин</a></li>
+										<li class="nav__item"><a class="nav__link" href="/lukbook.html">Лукбук</a></li>
+										<li class="nav__item"><a class="nav__link" href="/shop.html">Распродажа</a></li>
+										<li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
+									</ul>
+								</nav>
+							</div>
+							<div class="header__coll"><a class="logo" href="/"><img class="logo__img" src="/images/logo.png"></a></div>
+							<div class="header__coll">
+								<div class="icons">
+									<ul class="icons__list"> 
+										<li class="icons__item icons__item_pos_absolute"><a class="icons__link icons__link--search" href="#"><img class="icon__img" src="images/search.png"></a></li>
+										<li class="icons__item"><a class="icons__link" href="#"><img class="icon__img" src="images/person.png"></a></li>
+										<li class="icons__item"><a class="icons__link" href="#"><img class="icon__img" src="images/basket.png"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="search">
+							<div class="search-container">
+								<div class="input-search-wrap">
+									<input placeholder="Искать" type="text" class="input-search">
+									<div class="search__pic">
+										<img src="/images/arrow-next.png" alt="" class="search__img">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                <section class="section section-product-detail">
+                    <div class="container">
+                        <div class="section-product-detail__row">
+                            <div class="section-product-detail__coll">
+                                <div class="product-images-wrap">
+                                    <div class="product-images">
+                                        <a data-fancybox="images" href="/images/product-detail/deatil1.jpg" class="product-iamges__link" data-caption="Gray skirt DR-478">
+                                            <img src="/images/product-detail/deatil1.jpg" alt="" class="product-iamge" >
+                                        </a>
+                                        <a data-fancybox="images" href="/images/product-detail/deatil2.jpg" class="product-iamges__link" data-caption="Gray skirt DR-478">
+                                            <img src="/images/product-detail/deatil2.jpg" alt="" class="product-iamge">
+                                        </a>
+                                        <a data-fancybox="images" href="/images/product-detail/deatil3.jpg" class="product-iamges__link" data-caption="Gray skirt DR-478">
+                                            <img src="/images/product-detail/deatil3.jpg" alt="" class="product-iamge">
+                                        </a>
+                                        <a data-fancybox="images" href="/images/product-detail/deatil4.jpg" class="product-iamges__link" data-caption="Gray skirt DR-478">
+                                            <img src="/images/product-detail/deatil4.jpg" alt="" class="product-iamge">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-product-detail__coll">
+                                <div class="product-info-block">
+                                    <div class="product-info">
+                                        <div class="product-info__row">
+                                            <div class="product-info__coll">
+                                                <div class="product-info__title">Gray skirt</div>
+                                                <div class="product-info__code">DR-478</div>
+                                            </div>
+                                            <div class="product-info__coll">
+                                                <div class="price">
+                                                    <span>2 500</span>
+                                                    <span class="currency">rub</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-desc">
+                                        <div class="product-desc__block">
+                                            <div class="product-text">
+                                                Fabric is smooth and pleasant to the body.<br>  
+                                                Midi length with side zipper.<br>
+                                                Made in Russian.
+                                            </div>
+                                        </div>
+                                        <div class="product-desc__block">
+                                            <div class="composition">
+                                                <span>Composition:</span>
+                                                <span class="color_grey">100% Rayon</span>
+                                            </div>
+                                            <div class="care">
+                                                <span>Care:</span>
+                                                <span class="color_grey">Dry Clean Only</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-desc__block">
+                                            <div class="product-text">
+                                                Fits true to size, take your normal size <br>
+                                                High-rise, cut for a slim fit <br>
+                                                Mid weight, non-stretchy fabric <br>
+                                                Model is 177cm/ 5'10" and is wearning an IT 40
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-params">
+                                        <div class="product-params__row">
+                                            <div class="product-params__col">
+                                                <span class="select-size">Select-size:</span>
+                                            </div>
+                                            <div class="product-params__col">
+                                                <div class="sizes">
+                                                    <span class="size size--active">S</span>
+                                                    <span class="size">M</span>
+                                                    <span class="size">L</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-params__row">
+                                            <div class="product-params__col">
+                                                <spna class="color">
+                                                    Color:
+                                                </spna>
+                                            </div>
+                                            <div class="product-params__col">
+                                                <div class="silver">
+                                                    <div class="filter-btn">
+                                                        <div class="filter-btn__text">Silver</div>
+                                                        <div class="filter-btn__pic">
+                                                            <img src="/images/arrow-down.png" alt="стрелка вниз" class="filter-btn__img">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-btn-wrap">
+                                        <div class="product-btn product-btn--add-to-cart">Add to Cart</div>
+                                    </div>
+                                    <div class="product-info__row">
+                                        <div class="product-info__col">
+                                            <span class="share">Share:</span>
+                                        </div>
+                                        <div class="product-info__col">
+                                            <div class="socials">
+                                                <a href="#" class="socials__link">Facebook</a>
+                                                <a href="#" class="socials__link">Vkontakte</a>
+                                                <a href="#" class="socials__link">Pinterest</a>  
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section section-see-also">
+                    <div class="container">
+                        <div class="section-see-also__top">
+                            <div class="subtitle">See Also</div>
+                        </div>
+                        <ul class="section-see-also__list">
+                            <li class="section-see-also__item">
+                                <a class="product-item" href="#">
+                                    <div class="product-item__pic"><img src="images/see-also/see-also1.jpg"></div>
+                                    <div class="product-item__bottom">
+                                        <div class="product-item__title">Шелковое прямое платье</div>
+                                        <div class="product-item__sizes"> S    M    L</div>
+                                        <div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="section-see-also__item">
+                                <a class="product-item" href="#">
+                                    <div class="product-item__pic"><img src="images/see-also/see-also2.jpg"></div>
+                                    <div class="product-item__bottom">
+                                        <div class="product-item__title">Шелковое прямое платье</div>
+                                        <div class="product-item__sizes"> S    M    L</div>
+                                        <div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="section-see-also__item">
+                                <a class="product-item" href="#">
+                                    <div class="product-item__pic"><img src="images/see-also/see-also3.jpg"></div>
+                                    <div class="product-item__bottom">
+                                        <div class="product-item__title">Шелковое прямое платье</div>
+                                        <div class="product-item__sizes"> S    M    L</div>
+                                        <div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="section-see-also__item">
+                                <a class="product-item" href="#">
+                                    <div class="product-item__pic"><img src="images/see-also/see-also4.jpg"></div>
+                                    <div class="product-item__bottom">
+                                        <div class="product-item__title">Шелковое прямое платье</div>
+                                        <div class="product-item__sizes"> S    M    L</div>
+                                        <div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+			</div>
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__row">
+						<div class="footer__col">
+							<ul class="footer__list">
+								<li class="footer__item"><a class="footer__link" href="#">Поддержка</a></li>
+								<li class="footer__item"><a class="footer__link" href="#">Доставка и Возврат</a></li>
+								<li class="footer__item"><a class="footer__link" href="#">Публичная Оферта</a></li>
+								<li class="footer__item"><a class="footer__link" href="#">Контакты</a></li>
+							</ul>
+						</div>
+						<div class="footer__col">
+							<ul class="footer__list footer__list_text-right">
+								<li class="footer__item"><span>Валюта: </span><a class="footer__link footer__link--big" href="#">РУБ</a></li>
+								<li class="footer__item"><span>Язык: </span><a class="footer__link footer__link--big" href="#">РУС</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__row">
+						<div class="footer__col">
+							<div class="copyright">© 2020 Chaika Store </div>
+						</div>
+						<div class="footer__col">
+							<ul class="footer__list">
+								<li class="footer__item"><a class="footer__link" href="#">Инстаграм</a></li>
+								<li class="footer__item"><a class="footer__link" href="#">Подписаться на Рассылку</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous"></script>
+		<script src="/js/main.js"></script>
+        <!--этот скрипт подключается для страниц где есть фотогалерея  -->
+        <script src="/js/fancybox.js"></script>
+        <!--этот скрипт подключается для страниц где есть фотогалерея  -->
+	</body>
+</html>

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+		<link rel="stylesheet" href="/fonts/stylesheet.css">
+		<link rel="stylesheet" href="/main.css">
+	</head>
+	<body>
+		<nav class="nav nav--mobile">
+			<ul class="nav__list">
+				<li class="nav__item"><a class="nav__link" href="/shop.html">Магазин</a></li>
+				<li class="nav__item"><a class="nav__link" href="/lukbook.html">Лукбук</a></li>
+				<li class="nav__item"><a class="nav__link" href="/shop.html">Распродажа</a></li>
+				<li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
+			</ul>
+			<div class="nav-footer">
+				<div class="nav-footer__row">
+					<ul class="footer__list">
+						<li class="footer__item footer__item_mb_10"><a class="footer__link" href="#">Поддержка</a></li>
+						<li class="footer__item footer__item_mb_10"><a class="footer__link" href="#">Доставка и Возврат</a></li>
+						<li class="footer__item footer__item_mb_10"><a class="footer__link" href="#">Публичная Оферта</a></li>
+						<li class="footer__item footer__item_mb_10"><a class="footer__link" href="#">Контакты</a></li>
+						<li class="footer__item footer__item_mb_10"><a class="footer__link" href="#">Инстаграм</a></li>
+					</ul>
+				</div>
+				<div class="nav-footer__row">
+					<ul class="footer__list">
+						<li class="footer__item"><a class="footer__link" href="#">Подписаться на Рассылку</a></li>
+					</ul>
+				</div>
+				<div class="nav-footer__row">
+					<ul class="footer__list footer__list_flex_direction_row">
+						<li class="footer__item footer__item_mr_20"><span>Валюта: </span><a class="footer__link footer__link--big" href="#">РУБ</a></li>
+						<li class="footer__item"><span>Язык: </span><a class="footer__link footer__link--big" href="#">РУС</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="wrapper">
+			<div class="maincontent">
+				<div class="header">
+					<div class="container container_pos_rel"> 
+						<div class="header__row">
+							<div class="header__coll">
+								<div class="hamburger">
+									<div class="hamburger-line"></div>
+									<div class="hamburger-line"></div>
+									<div class="hamburger-line"></div>
+								</div>
+								<nav class="nav">
+									<ul class="nav__list">
+										<li class="nav__item"><a class="nav__link" href="/shop.html">Магазин</a></li>
+										<li class="nav__item"><a class="nav__link" href="/lukbook.html">Лукбук</a></li>
+										<li class="nav__item"><a class="nav__link" href="/shop.html">Распродажа</a></li>
+										<li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
+									</ul>
+								</nav>
+							</div>
+							<div class="header__coll"><a class="logo" href="/"><img class="logo__img" src="/images/logo.png"></a></div>
+							<div class="header__coll">
+								<div class="icons">
+									<ul class="icons__list"> 
+										<li class="icons__item icons__item_pos_absolute"><a class="icons__link icons__link--search" href="#"><img class="icon__img" src="images/search.png"></a></li>
+										<li class="icons__item"><a class="icons__link" href="#"><img class="icon__img" src="images/person.png"></a></li>
+										<li class="icons__item"><a class="icons__link" href="#"><img class="icon__img" src="images/basket.png"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="search">
+							<div class="search-container">
+								<div class="input-search-wrap">
+									<input placeholder="Искать" type="text" class="input-search">
+									<div class="search__pic">
+										<img src="/images/arrow-next.png" alt="" class="search__img">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section class="section section-cart">
+                    <div class="container">
+                        <div class="subtitle subtitle--cart">Корзина</div>
+                        <div class="section-cart__row">
+                            <div class="section-cart__coll">
+                                <div class="cart-table">
+                                    <div class="cart-table__row cart-table__row--head">
+                                        <div class="cart-table__cell cart-table__cell-head">Название:</div>
+                                        <div class="cart-table__cell cart-table__cell-head">Размер:</div>
+                                        <div class="cart-table__cell cart-table__cell-head">Количество:</div>
+                                        <div class="cart-table__cell cart-table__cell-head">Стоимость:</div>
+                                    </div>
+                                    <div class="cart-table__row">
+                                        <div class="cart-table__cell cart-table__cell--first">
+                                            <div class="cart-table__first">
+                                                <div class="cart-table__item__pic">
+                                                    <img src="/images/cart-img.jpg" alt="" class="cart-table__img">
+                                                </div>
+                                                <div class="cart-table__title-block">
+                                                    <div class="cart-table__title">Brown straight-leg pants</div>
+                                                    <div class="cart-table__code">GR - 1826</div>
+                                                    <div class="cart-table__remove">
+                                                        <span>Remove</span>
+                                                        <img src="/images/close.png" alt="">
+                                                    </div>
+                                                    <div class="cart-table__mobile-block">
+                                                        <div class="cart-table__size">S</div>
+                                                        <div class="cart-table__mobile-block__bottom">
+                                                            <div class="cart-table__quantity">
+                                                                <div class="quantity__btn">-</div>
+                                                                <div class="quantity">1</div>
+                                                                <div class="quantity__btn">+</div>
+                                                            </div>
+                                                            <div class="price">
+                                                                <span>2 500</span>
+                                                                <span class="currency">rub</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                               
+                                              </div>
+                                        </div>
+                                        <div class="cart-table__cell pos-rel pr-100">
+                                            <div class="cart-table__size pos-ab">S</div>
+                                        </div>
+                                        <div class="cart-table__cell pos-rel pr-100">
+                                            <div class="cart-table__quantity pos-ab">
+                                                <div class="quantity__btn">-</div>
+                                                <div class="quantity">1</div>
+                                                <div class="quantity__btn">+</div>
+                                            </div>
+                                        </div>
+                                        <div class="cart-table__cell pos-rel pr-100">
+                                            <div class="cart-table__price pos-ab">
+                                                <div class="price">
+                                                    <span>2 500</span>
+                                                    <span class="currency">rub</span>
+                                                </div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart-table__row">
+                                        <div class="cart-table__cell cart-table__cell--first">
+                                            <div class="cart-table__first">
+                                                <div class="cart-table__item__pic">
+                                                    <img src="/images/cart-img.jpg" alt="" class="cart-table__img">
+                                                </div>
+                                                <div class="cart-table__title-block">
+                                                    <div class="cart-table__title">Brown straight-leg pants</div>
+                                                    <div class="cart-table__code">GR - 1826</div>
+                                                    <div class="cart-table__remove">
+                                                        <span>Remove</span>
+                                                        <img src="/images/close.png" alt="">
+                                                    </div>
+                                                    <div class="cart-table__mobile-block">
+                                                        <div class="cart-table__size">S</div>
+                                                        <div class="cart-table__mobile-block__bottom">
+                                                            <div class="cart-table__quantity">
+                                                                <div class="quantity__btn">-</div>
+                                                                <div class="quantity">1</div>
+                                                                <div class="quantity__btn">+</div>
+                                                            </div>
+                                                            <div class="price">
+                                                                <span>2 500</span>
+                                                                <span class="currency">rub</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                               
+                                              </div>
+                                        </div>
+                                        <div class="cart-table__cell pos-rel pr-100">
+                                            <div class="cart-table__size pos-ab">S</div>
+                                        </div>
+                                        <div class="cart-table__cell pos-rel pr-100">
+                                            <div class="cart-table__quantity pos-ab">
+                                                <div class="quantity__btn">-</div>
+                                                <div class="quantity">1</div>
+                                                <div class="quantity__btn">+</div>
+                                            </div>
+                                        </div>
+                                        <div class="cart-table__cell pos-rel pr-100">
+                                            <div class="cart-table__price pos-ab">
+                                                <div class="price">
+                                                    <span>2 500</span>
+                                                    <span class="currency">rub</span>
+                                                </div>
+                                              </div>
+                                        </div>
+                                    </div>
+                                    
+                                   
+                                </div>
+                            </div>
+                            <div class="section-cart__coll pl-60">
+                                <div class="payment">
+                                    <div class="payment__title">Ваш заказ</div>
+                                    <div class="payment__row mb-30">
+                                        <div class="subtitle">Корзина:</div>
+                                        <div class="price">
+                                            <span>2 500</span>
+                                            <span class="currency">rub</span>
+                                        </div>
+                                    </div>
+                                    <div class="payment__row mb-55">
+                                        <div class="subtitle">К оплате:</div>
+                                        <div class="price">
+                                            <span>2 500</span>
+                                            <span class="currency">rub</span>
+                                        </div>
+                                    </div>
+                                    <div class="payment__row mb-55">
+                                        <div class="subtitle">Доставка:</div>
+                                        <div class="price">
+                                            <span>2 500</span>
+                                            <span class="currency">rub</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-btn-wrap">
+                                        <div class="product-btn">Add to Cart</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section section-form">
+                    <div class="container">
+                        <form action=# class="form">
+                            <div class="form__row">
+                                <div class="form__coll">
+                                    <div class="form__title">Клиент:</div>
+                                </div>
+                                <div class="form__coll">
+                                    <div class="input__row">
+                                        <div class="input__coll">
+                                            <label for="name" class="label">Имя*</label>
+                                            <input placeholder="Ваше имя" id="name" type="text" class="input">
+                                        </div>
+                                        <div class="input__coll">
+                                            <label for="lastname" class="label">Фамилия*</label>
+                                            <input placeholder="Ваша фамилия" id="lastname" type="text" class="input">
+                                        </div>
+                                    </div>
+                                    <div class="input__row">
+                                        <div class="input__coll">
+                                            <label for="email" class="label">E-mail*</label>
+                                            <input placeholder="Ваш e-mail" id="email" type="text" class="input">
+                                        </div>
+                                        <div class="input__coll">
+                                            <label for="phone" class="label">Телефон</label>
+                                            <input placeholder="Ваш телефон" id="phone" type="text" class="input">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form__row">
+                                <div class="form__coll">
+                                    <div class="form__title">Адрес доставки:</div>
+                                </div>
+                                <div class="form__coll">
+                                    <div class="input__row">
+                                        <div class="input__coll">
+                                            <div class="input-wrap">
+                                                <label for="country" class="label">Страна*</label>
+                                                <input placeholder="Ваша страна" id="country"" type="text" class="input">
+                                                <div class="arrow-down-pic">
+                                                    <img src="/images/arrow-down-s.png" alt="" class="arrow-down__img">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="input__coll">
+                                            <label for="region" class="label">Регион/область*</label>
+                                            <input placeholder="Ваш регион/область" id="region" type="text" class="input">
+                                        </div>
+                                    </div>
+                                   <div class="input__row">
+                                        <div class="input__coll">
+                                            <label for="town" class="label">Город*</label>
+                                            <input placeholder="Ваш город" id="town" type="text" class="input">
+                                        </div>
+                                        <div class="input__coll">
+                                            <label for="index" class="label">Индекс*</label>
+                                            <input placeholder="Индекс" id="index" type="text" class="input">
+                                        </div>
+                                    </div>
+                                    <div class="input__row">
+                                        <div class="input__coll input__coll_w_75">
+                                            <label for="street" class="label">Улица и номер дома*</label>
+                                            <input placeholder="Ваша улица и номер дома" id="street" type="text" class="input">
+                                        </div>
+                                        <div class="input__coll input__coll_w_15">
+                                            <label for="flat" class="label">Квартира/офис</label>
+                                            <input placeholder="Номер" id="flat" type="text" class="input">
+                                        </div>
+                                    </div>
+                                    <div class="input__row">
+                                        <div class="input__coll input__coll_w_100">
+                                            <label for="message" class="label">Дополнительная информация</label>
+                                            <textarea id="message" placeholder="Ваше сообщение" class="input textarea"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form__row">
+                                <div class="form__coll">
+                                    <div class="form__title">Способ доставки:</div>
+                                </div>
+                                <div class="form__coll">
+                                    <div class="checkbox__row">
+                                        <div class="checkbox__left">
+                                            <div class="checkbox-wrap">
+                                                <input name="method" id="standart" value="standart" type="radio" class="checkbox">
+                                                <label for="standart" class="checkbox-label"></label>
+                                            </div>
+                                            <div class="checkbox-desc">
+                                                <div class="subtitle mb-30">Стандартная</div>
+                                                <div class="text">
+                                                    Доставка вашего заказа может занять 1-2 рабочих дня.<br>
+                                                    После отправки: метро 3-4 рабочих дня / региональная 5-7<br>
+                                                    рабочих дней / региональная 8 - 10 рабочихдней
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="checkbox__right">
+                                            <div class="price">
+                                                <span>1 000</span>
+                                                <span class="currency">rub</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="checkbox__row">
+                                        <div class="checkbox__left">
+                                             <div class="checkbox-wrap">
+                                                 <input name="method" id="express" value="express" type="radio" class="checkbox">
+                                                <label for="express" class="checkbox-label"></label>
+                                            </div>
+                                            <div class="checkbox-desc">
+                                                <div class="subtitle mb-30">Эксперсс</div>
+                                                <div class="text">
+                                                    Доставка вашего заказа может занять 1-2 рабочих дня.<br>
+                                                    После отправки: метро 3-4 рабочих дня / региональная 5-7<br>
+                                                    рабочих дней / региональная 8 - 10 рабочихдней
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="checkbox__right">
+                                            <div class="price">
+                                                <span>2 000</span>
+                                                <span class="currency">rub</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="checkbox__row">
+                                        <div class="checkbox__left">
+                                            <div class="checkbox-wrap">
+                                                <input id="agree" value="agree" type="checkbox" class="checkbox">
+                                                <label for="agree" class="checkbox-label"></label>
+                                            </div>
+                                            <div class="checkbox-desc">
+                                                <div class="subtitle">Даю согласие на обработку персональных данных </div>
+                                            </div>
+                                        </div>
+                                        <div class="checkbox__right">
+                                        </div>
+                                    </div>
+                                    <div class="product-btn-wrap product-btn-wrap--mobile">
+                                        <div class="product-btn">Add to Cart</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+			</div>
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__row">
+						<div class="footer__col">
+							<ul class="footer__list">
+								<li class="footer__item"><a class="footer__link" href="#">Поддержка</a></li>
+								<li class="footer__item"><a class="footer__link" href="#">Доставка и Возврат</a></li>
+								<li class="footer__item"><a class="footer__link" href="#">Публичная Оферта</a></li>
+								<li class="footer__item"><a class="footer__link" href="#">Контакты</a></li>
+							</ul>
+						</div>
+						<div class="footer__col">
+							<ul class="footer__list footer__list_text-right">
+								<li class="footer__item"><span>Валюта: </span><a class="footer__link footer__link--big" href="#">РУБ</a></li>
+								<li class="footer__item"><span>Язык: </span><a class="footer__link footer__link--big" href="#">РУС</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__row">
+						<div class="footer__col">
+							<div class="copyright">© 2020 Chaika Store </div>
+						</div>
+						<div class="footer__col">
+							<ul class="footer__list">
+								<li class="footer__item"><a class="footer__link" href="#">Инстаграм</a></li>
+								<li class="footer__item"><a class="footer__link" href="#">Подписаться на Рассылку</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="/js/main.js"></script>
+	</body>
+</html>

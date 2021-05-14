@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+		<link rel="stylesheet" href="/fonts/stylesheet.css">
+		<link rel="stylesheet" href="/main.css">
+	</head>
+	<body>
+		<nav class="nav nav--mobile">
+			<ul class="nav__list">
+				<li class="nav__item"><a class="nav__link" href="/shop.html">Магазин</a></li>
+				<li class="nav__item"><a class="nav__link" href="/lukbook.html">Лукбук</a></li>
+				<li class="nav__item"><a class="nav__link" href="/shop.html">Распродажа</a></li>
+				<li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
+			</ul>
+			<div class="nav-footer">
+				<div class="nav-footer__row">
+					<ul class="footer__list">
+						<li class="footer__item footer__item_mb_10"><a class="footer__link" href="#">Поддержка</a></li>
+						<li class="footer__item footer__item_mb_10"><a class="footer__link" href="#">Доставка и Возврат</a></li>
+						<li class="footer__item footer__item_mb_10"><a class="footer__link" href="#">Публичная Оферта</a></li>
+						<li class="footer__item footer__item_mb_10"><a class="footer__link" href="#">Контакты</a></li>
+						<li class="footer__item footer__item_mb_10"><a class="footer__link" href="#">Инстаграм</a></li>
+					</ul>
+				</div>
+				<div class="nav-footer__row">
+					<ul class="footer__list">
+						<li class="footer__item"><a class="footer__link" href="#">Подписаться на Рассылку</a></li>
+					</ul>
+				</div>
+				<div class="nav-footer__row">
+					<ul class="footer__list footer__list_flex_direction_row">
+						<li class="footer__item footer__item_mr_20"><span>Валюта: </span><a class="footer__link footer__link--big" href="#">РУБ</a></li>
+						<li class="footer__item"><span>Язык: </span><a class="footer__link footer__link--big" href="#">РУС</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="wrapper">
+			<div class="maincontent">
+				<div class="header">
+					<div class="container container_pos_rel"> 
+						<div class="header__row">
+							<div class="header__coll">
+								<div class="hamburger">
+									<div class="hamburger-line"></div>
+									<div class="hamburger-line"></div>
+									<div class="hamburger-line"></div>
+								</div>
+								<nav class="nav">
+									<ul class="nav__list">
+										<li class="nav__item"><a class="nav__link" href="/shop.html">Магазин</a></li>
+										<li class="nav__item"><a class="nav__link" href="/lukbook.html">Лукбук</a></li>
+										<li class="nav__item"><a class="nav__link" href="/shop.html">Распродажа</a></li>
+										<li class="nav__item"><a class="nav__link" href="#">О нас</a></li>
+									</ul>
+								</nav>
+							</div>
+							<div class="header__coll"><a class="logo" href="/"><img class="logo__img" src="/images/logo.png"></a></div>
+							<div class="header__coll">
+								<div class="icons">
+									<ul class="icons__list"> 
+										<li class="icons__item icons__item_pos_absolute"><a class="icons__link icons__link--search" href="#"><img class="icon__img" src="images/search.png"></a></li>
+										<li class="icons__item"><a class="icons__link" href="#"><img class="icon__img" src="images/person.png"></a></li>
+										<li class="icons__item"><a class="icons__link" href="#"><img class="icon__img" src="images/basket.png"></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="search">
+							<div class="search-container">
+								<div class="input-search-wrap">
+									<input placeholder="Искать" type="text" class="input-search">
+									<div class="search__pic">
+										<img src="/images/arrow-next.png" alt="" class="search__img">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                <section class="section section-profile">
+                    <div class="container">
+                        <div class="section-profile__top">
+                            <div class="subtitle mb-30">Личный кабинет</div>
+                        </div>
+                        <form action=# class="form">
+                            <div class="form__row">
+                                <div class="form__coll">
+                                    <div class="form__title">Клиент:</div>
+                                </div>
+                                <div class="form__coll">
+                                    <div class="input__row">
+                                        <div class="input__coll">
+                                            <label for="name" class="label">Имя*</label>
+                                            <input placeholder="Ваше имя" id="name" type="text" class="input">
+                                        </div>
+                                        <div class="input__coll">
+                                            <label for="lastname" class="label">Фамилия*</label>
+                                            <input placeholder="Ваша фамилия" id="lastname" type="text" class="input">
+                                        </div>
+                                    </div>
+                                    <div class="input__row">
+                                        <div class="input__coll">
+                                            <label for="email" class="label">E-mail*</label>
+                                            <input placeholder="Ваш e-mail" id="email" type="text" class="input">
+                                        </div>
+                                        <div class="input__coll">
+                                            <label for="phone" class="label">Телефон</label>
+                                            <input placeholder="Ваш телефон" id="phone" type="text" class="input">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form__row">
+                                <div class="form__coll">
+                                    <div class="form__title">Адрес доставки:</div>
+                                </div>
+                                <div class="form__coll">
+                                    <div class="input__row">
+                                        <div class="input__coll">
+                                            <div class="input-wrap">
+                                                <label for="country" class="label">Страна*</label>
+                                                <input placeholder="Ваша страна" id="country"" type="text" class="input">
+                                                <div class="arrow-down-pic">
+                                                    <img src="/images/arrow-down-s.png" alt="" class="arrow-down__img">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="input__coll">
+                                            <label for="region" class="label">Регион/область*</label>
+                                            <input placeholder="Ваш регион/область" id="region" type="text" class="input">
+                                        </div>
+                                    </div>
+                                   <div class="input__row">
+                                        <div class="input__coll">
+                                            <label for="town" class="label">Город*</label>
+                                            <input placeholder="Ваш город" id="town" type="text" class="input">
+                                        </div>
+                                        <div class="input__coll">
+                                            <label for="index" class="label">Индекс*</label>
+                                            <input placeholder="Индекс" id="index" type="text" class="input">
+                                        </div>
+                                    </div>
+                                    <div class="input__row">
+                                        <div class="input__coll input__coll_w_75">
+                                            <label for="street" class="label">Улица и номер дома*</label>
+                                            <input placeholder="Ваша улица и номер дома" id="street" type="text" class="input">
+                                        </div>
+                                        <div class="input__coll input__coll_w_15">
+                                            <label for="flat" class="label">Квартира/офис</label>
+                                            <input placeholder="Номер" id="flat" type="text" class="input">
+                                        </div>
+                                    </div>
+                                    <div class="input__row">
+                                        <div class="checkbox__row w-100 checkbox__row--btns">
+                                            <div class="checkbox__left checkbox__left--btns">
+                                                <div class="checkbox-wrap">
+                                                    <input id="agree" value="agree" type="checkbox" class="checkbox">
+                                                    <label for="agree" class="checkbox-label"></label>
+                                                </div>
+                                                <div class="checkbox-desc">
+                                                    <div class="subtitle">Даю согласие на обработку персональных данных </div>
+                                                </div>
+                                            </div>
+                                            <div class="checkbox__right">
+                                                <div class="product-btn-wrap w-140 mr-40">
+                                                    <div class="product-btn product-btn--transparent">Изменить</div>
+                                                </div>
+                                                <div class="product-btn-wrap w-140">
+                                                    <div class="product-btn">Сохранить</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form__row">
+                                <div class="form__coll">
+                                    <div class="form__title">История заказов:</div>
+                                </div>
+                                <div class="form__coll">
+                                   <div class="history-table">
+                                       <div class="history-table__row history-table__row--grey">
+                                           <div class="history-table__cell">#123212</div>
+                                           <div class="history-table__cell">27.03.2020</div>
+                                           <div class="history-table__cell"><span>2 500</span><span class="currency">руб </span></div>
+                                           <div class="history-table__cell">Доставлено</div>
+                                       </div>
+                                       <div class="history-table__row history-table__row--grey">
+                                           <div class="history-table__cell">#123212</div>
+                                           <div class="history-table__cell">27.03.2020</div>
+                                           <div class="history-table__cell"><span>2 500</span><span class="currency">руб </span></div>
+                                           <div class="history-table__cell">Доставлено</div>
+                                       </div>
+                                       <div class="history-table__row">
+                                           <div class="history-table__cell">#123212</div>
+                                           <div class="history-table__cell">27.03.2020</div>
+                                           <div class="history-table__cell"><span>2 500</span><span class="currency">руб </span></div>
+                                           <div class="history-table__cell">Доставлено</div>
+                                       </div>
+                                       <div class="history-table__row">
+                                           <div class="history-table__cell">#123212</div>
+                                           <div class="history-table__cell">27.03.2020</div>
+                                           <div class="history-table__cell"><span>2 500</span><span class="currency">руб </span></div>
+                                           <div class="history-table__cell">Доставлено</div>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="form__row">
+                                <div class="form__coll">
+                                    <div class="form__title">Изменить пароль:</div>
+                                </div>
+                                <div class="form__coll">
+                                    <div class="input__row">
+                                        <div class="input__coll">
+                                            <label for="new-pas" class="label">Новый пароль*</label>
+                                            <input placeholder="Ваш новый пароль" id="new-pas" type="password" class="input">
+                                        </div>
+                                        <div class="input__coll">
+                                            <label for="repeat-new-pas" class="label">Повторите новый пароль*</label>
+                                            <input placeholder="Повторите ваш новый пароль" id="repeat-new-pas" type="password" class="input">
+                                        </div>
+                                    </div>
+                                    <div class="input__row">
+                                        <div class="checkbox__row w-100 checkbox__row--end">
+                                            <div class="checkbox__right">
+                                                <div class="product-btn-wrap w-140 mr-40">
+                                                    <div class="product-btn product-btn--transparent">Изменить</div>
+                                                </div>
+                                                <div class="product-btn-wrap w-140">
+                                                    <div class="product-btn">Сохранить</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+			</div>
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__row">
+						<div class="footer__col">
+							<ul class="footer__list">
+								<li class="footer__item"><a class="footer__link" href="#">Поддержка</a></li>
+								<li class="footer__item"><a class="footer__link" href="#">Доставка и Возврат</a></li>
+								<li class="footer__item"><a class="footer__link" href="#">Публичная Оферта</a></li>
+								<li class="footer__item"><a class="footer__link" href="#">Контакты</a></li>
+							</ul>
+						</div>
+						<div class="footer__col">
+							<ul class="footer__list footer__list_text-right">
+								<li class="footer__item"><span>Валюта: </span><a class="footer__link footer__link--big" href="#">РУБ</a></li>
+								<li class="footer__item"><span>Язык: </span><a class="footer__link footer__link--big" href="#">РУС</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__row">
+						<div class="footer__col">
+							<div class="copyright">© 2020 Chaika Store </div>
+						</div>
+						<div class="footer__col">
+							<ul class="footer__list">
+								<li class="footer__item"><a class="footer__link" href="#">Инстаграм</a></li>
+								<li class="footer__item"><a class="footer__link" href="#">Подписаться на Рассылку</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<script src="/js/main.js"></script>
+	</body>
+</html>
