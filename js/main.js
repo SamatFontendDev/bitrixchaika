@@ -58,4 +58,13 @@ $(document).ready(function() {
       $(this).toggleClass('icons__link--active')
       $('.search').slideToggle()
     })
+
+    $('#filter-btn').click(function() {
+      $('.filter__row').css('display', 'none')
+      $('.filter-form').css('display', 'block')
+    })
+    $('#filter-btn-2').click(function() {
+      $('.filter__row').css('display', 'flex')
+      $('.filter-form').css('display', 'none')
+    })
 })

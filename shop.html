@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
+	<head itemscope itemtype="http://schema.org/WPHeader">
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title itemprop="headline">Chaika</title>
+		<meta itemprop="description" name="description" content="описание_страницы">
+		<meta itemprop="keywords" name="keywords" content="ключевые_слова_для_страницы">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
 		<link rel="stylesheet" href="/fonts/stylesheet.css">
 		<link rel="stylesheet" href="/main.css">
@@ -84,9 +87,186 @@
 				</div>
 				<div class="filter">
                     <div class="container">
+						<form action="#" class="filter-form">
+							<div class="filter-form__content">
+								<div class="filter-form__col">
+									<span id="filter-btn-2" class="subtitle subtitle_border_bottom">Фильтры</span>
+								</div>
+								<div class="filter-form__col">
+									<ul class="filter__list">
+										<li class="filter__item">
+											<label for="new-arrivals" class="filter-label">
+												<input class="filter-checkbox" name="collection" id="new-arrivals" type="radio">
+												<span>New Arrivals</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="sale" class="filter-label">
+												<input class="filter-checkbox" name="collection" id="sale" type="radio">
+												<span>Sale</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+								<div class="filter-form__col">
+									<ul class="filter__list">
+										<li class="filter__item">
+											<label for="all" class="filter-label">
+												<input class="filter-checkbox" name="type" id="all" type="radio">
+												<span>All</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="sweatshirts" class="filter-label">
+												<input class="filter-checkbox" id="sweatshirts" name="type" type="radio">
+												<span>Sweatshirts</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="cardigans" class="filter-label">
+												<input class="filter-checkbox" id="cardigans" name="type" type="radio">
+												<span>Cardigans</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="jumpers" class="filter-label">
+												<input class="filter-checkbox" id="jumpers" name="type" type="radio">
+												<span>Jumpers</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="bodysuit" class="filter-label">
+												<input class="filter-checkbox" id="bodysuit" name="type" type="radio">
+												<span>Bodysuit</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="blouses" class="filter-label">
+												<input class="filter-checkbox" id="blouses" name="type" type="radio">
+												<span>Blouses</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="pants" class="filter-label">
+												<input class="filter-checkbox" id="pants" name="type" type="radio">
+												<span>Pants</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="t-shirts" class="filter-label">
+												<input class="filter-checkbox" id="t-shirts" name="type" type="radio">
+												<span>T-shirts</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="denim" class="filter-label">
+												<input class="filter-checkbox" id="denim" name="type" type="radio">
+												<span>Denim</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="dresses" class="filter-label">
+												<input class="filter-checkbox" id="dresses" name="type" type="radio">
+												<span>Dresses</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="skirts" class="filter-label">
+												<input class="filter-checkbox" id="skirts" name="type" type="radio">
+												<span>Skirts</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+								<div class="filter-form__col">
+									<ul class="filter__list">
+										<li class="filter__item">
+											<label for="brown" class="filter-label">
+												<input class="filter-checkbox" name="color" id="brown" type="checkbox">
+												<span>Brown</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="lemon" class="filter-label">
+												<input class="filter-checkbox" name="color" id="lemon" type="checkbox">
+												<span>Lemon</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="navy" class="filter-label">
+												<input class="filter-checkbox" name="color" id="navy" type="checkbox">
+												<span>Navy</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="sand" class="filter-label">
+												<input class="filter-checkbox" name="color" id="sand" type="checkbox">
+												<span>Sand</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="taupe" class="filter-label">
+												<input class="filter-checkbox" name="color" id="taupe" type="checkbox">
+												<span>Taupe</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="beige" class="filter-label">
+												<input class="filter-checkbox" name="color" id="beige" type="checkbox">
+												<span>Beige</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="gray" class="filter-label">
+												<input class="filter-checkbox" name="color" id="gray" type="checkbox">
+												<span>Gray</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+								<div class="filter-form__col">
+									<ul class="filter__list">
+										<li class="filter__item">
+											<label for="xs" class="filter-label">
+												<input class="filter-checkbox" name="size" id="xs" type="radio">
+												<span>XS</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="s" class="filter-label">
+												<input class="filter-checkbox" id="s" name="size" type="radio">
+												<span>S</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="m" class="filter-label">
+												<input class="filter-checkbox" id="m" name="size" type="radio">
+												<span>M</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="l" class="filter-label">
+												<input class="filter-checkbox" id="l" name="size" type="radio">
+												<span>L</span>
+											</label>
+										</li>
+										<li class="filter__item">
+											<label for="xl class="filter-label">
+												<input class="filter-checkbox" id="xl" name="size" type="radio">
+												<span>XL</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<label id="reset" for="clear" class="filter-label">
+								<span>Clear</span>
+								<input class="filter-checkbox" id="clear" type="reset">
+							</label>
+						</form>
                         <div class="filter__row">
                             <div class="filter__col">
-                                <div class="subtitle">Фильтры</div>
+                                <div id="filter-btn" class="subtitle">Фильтры</div>
                             </div>
                             <div class="filter__col">
                                 <div class="filter-btn">
@@ -102,167 +282,128 @@
                 <section class="section section-shop">
                     <div class="container">
                         <div class="shop">
-                            <ul class="shop__list">
-                                <li class="shop__item">
-                                    <a class="product-item" href="#">
-										<div class="product-item__pic"><img src="images/slide1.png"></div>
+                            <ul itemscope itemtype="http://schema.org/ItemList" class="shop__list">
+                                <li itemscope itemprop="itemListElement" itemtype="http://schema.org/Product" class="shop__item">
+                                    <a itemprop="url" class="product-item" href="#">
+										<div class="product-item__pic"><img itemprop="image" src="images/slide1.png"></div>
 										<div class="product-item__bottom">
-											<div class="product-item__title">Шелковое прямое платье</div>
+											<div itemprop="name" class="product-item__title">Шелковое прямое платье</div>
 											<div class="product-item__sizes"> S    M    L</div>
 											<div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
 										</div>
 									</a>
                                 </li>
-                                <li class="shop__item">
-                                    <a class="product-item" href="#">
-										<div class="product-item__pic"><img src="images/slide2.png"></div>
+                                <li itemscope itemprop="itemListElement" itemtype="http://schema.org/Product" class="shop__item">
+                                    <a itemprop="url" class="product-item" href="#">
+										<div class="product-item__pic"><img itemprop="image" src="images/slide1.png"></div>
 										<div class="product-item__bottom">
-											<div class="product-item__title">Шелковое прямое платье</div>
+											<div itemprop="name" class="product-item__title">Шелковое прямое платье</div>
 											<div class="product-item__sizes"> S    M    L</div>
 											<div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
 										</div>
 									</a>
                                 </li>
-                                <li class="shop__item">
-                                    <a class="product-item" href="#">
-										<div class="product-item__pic"><img src="images/slide3.png"></div>
+                                <li itemscope itemprop="itemListElement" itemtype="http://schema.org/Product" class="shop__item">
+                                    <a itemprop="url" class="product-item" href="#">
+										<div class="product-item__pic"><img itemprop="image" src="images/slide1.png"></div>
 										<div class="product-item__bottom">
-											<div class="product-item__title">Шелковое прямое платье</div>
+											<div itemprop="name" class="product-item__title">Шелковое прямое платье</div>
 											<div class="product-item__sizes"> S    M    L</div>
 											<div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
 										</div>
 									</a>
                                 </li>
-                                <li class="shop__item">
-                                    <a class="product-item" href="#">
-										<div class="product-item__pic"><img src="images/slide4.png"></div>
+                                <li itemscope itemprop="itemListElement" itemtype="http://schema.org/Product" class="shop__item">
+                                    <a itemprop="url" class="product-item" href="#">
+										<div class="product-item__pic"><img itemprop="image" src="images/slide1.png"></div>
 										<div class="product-item__bottom">
-											<div class="product-item__title">Шелковое прямое платье</div>
+											<div itemprop="name" class="product-item__title">Шелковое прямое платье</div>
 											<div class="product-item__sizes"> S    M    L</div>
 											<div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
 										</div>
 									</a>
                                 </li>
-                                <li class="shop__item">
-                                    <a class="product-item" href="#">
-										<div class="product-item__pic"><img src="images/slide1.png"></div>
+                                <li itemscope itemprop="itemListElement" itemtype="http://schema.org/Product" class="shop__item">
+                                    <a itemprop="url" class="product-item" href="#">
+										<div class="product-item__pic"><img itemprop="image" src="images/slide1.png"></div>
 										<div class="product-item__bottom">
-											<div class="product-item__title">Шелковое прямое платье</div>
+											<div itemprop="name" class="product-item__title">Шелковое прямое платье</div>
 											<div class="product-item__sizes"> S    M    L</div>
 											<div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
 										</div>
 									</a>
                                 </li>
-                                <li class="shop__item">
-                                    <a class="product-item" href="#">
-										<div class="product-item__pic"><img src="images/slide2.png"></div>
+                                <li itemscope itemprop="itemListElement" itemtype="http://schema.org/Product" class="shop__item">
+                                    <a itemprop="url" class="product-item" href="#">
+										<div class="product-item__pic"><img itemprop="image" src="images/slide1.png"></div>
 										<div class="product-item__bottom">
-											<div class="product-item__title">Шелковое прямое платье</div>
+											<div itemprop="name" class="product-item__title">Шелковое прямое платье</div>
 											<div class="product-item__sizes"> S    M    L</div>
 											<div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
 										</div>
 									</a>
                                 </li>
-                                <li class="shop__item">
-                                    <a class="product-item" href="#">
-										<div class="product-item__pic"><img src="images/slide3.png"></div>
+                                <li itemscope itemprop="itemListElement" itemtype="http://schema.org/Product" class="shop__item">
+                                    <a itemprop="url" class="product-item" href="#">
+										<div class="product-item__pic"><img itemprop="image" src="images/slide1.png"></div>
 										<div class="product-item__bottom">
-											<div class="product-item__title">Шелковое прямое платье</div>
+											<div itemprop="name" class="product-item__title">Шелковое прямое платье</div>
 											<div class="product-item__sizes"> S    M    L</div>
 											<div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
 										</div>
 									</a>
                                 </li>
-                                <li class="shop__item">
-                                    <a class="product-item" href="#">
-										<div class="product-item__pic"><img src="images/slide4.png"></div>
+                                <li itemscope itemprop="itemListElement" itemtype="http://schema.org/Product" class="shop__item">
+                                    <a itemprop="url" class="product-item" href="#">
+										<div class="product-item__pic"><img itemprop="image" src="images/slide1.png"></div>
 										<div class="product-item__bottom">
-											<div class="product-item__title">Шелковое прямое платье</div>
+											<div itemprop="name" class="product-item__title">Шелковое прямое платье</div>
 											<div class="product-item__sizes"> S    M    L</div>
 											<div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
 										</div>
 									</a>
                                 </li>
-                                <li class="shop__item">
-                                    <a class="product-item" href="#">
-										<div class="product-item__pic"><img src="images/slide1.png"></div>
+                                <li itemscope itemprop="itemListElement" itemtype="http://schema.org/Product" class="shop__item">
+                                    <a itemprop="url" class="product-item" href="#">
+										<div class="product-item__pic"><img itemprop="image" src="images/slide1.png"></div>
 										<div class="product-item__bottom">
-											<div class="product-item__title">Шелковое прямое платье</div>
+											<div itemprop="name" class="product-item__title">Шелковое прямое платье</div>
 											<div class="product-item__sizes"> S    M    L</div>
 											<div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
 										</div>
 									</a>
                                 </li>
-                                <li class="shop__item">
-                                    <a class="product-item" href="#">
-										<div class="product-item__pic"><img src="images/slide2.png"></div>
+                                <li itemscope itemprop="itemListElement" itemtype="http://schema.org/Product" class="shop__item">
+                                    <a itemprop="url" class="product-item" href="#">
+										<div class="product-item__pic"><img itemprop="image" src="images/slide1.png"></div>
 										<div class="product-item__bottom">
-											<div class="product-item__title">Шелковое прямое платье</div>
+											<div itemprop="name" class="product-item__title">Шелковое прямое платье</div>
 											<div class="product-item__sizes"> S    M    L</div>
 											<div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
 										</div>
 									</a>
                                 </li>
-                                <li class="shop__item">
-                                    <a class="product-item" href="#">
-										<div class="product-item__pic"><img src="images/slide3.png"></div>
+                                <li itemscope itemprop="itemListElement" itemtype="http://schema.org/Product" class="shop__item">
+                                    <a itemprop="url" class="product-item" href="#">
+										<div class="product-item__pic"><img itemprop="image" src="images/slide1.png"></div>
 										<div class="product-item__bottom">
-											<div class="product-item__title">Шелковое прямое платье</div>
+											<div itemprop="name" class="product-item__title">Шелковое прямое платье</div>
 											<div class="product-item__sizes"> S    M    L</div>
 											<div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
 										</div>
 									</a>
                                 </li>
-                                <li class="shop__item">
-                                    <a class="product-item" href="#">
-										<div class="product-item__pic"><img src="images/slide4.png"></div>
+                                <li itemscope itemprop="itemListElement" itemtype="http://schema.org/Product" class="shop__item">
+                                    <a itemprop="url" class="product-item" href="#">
+										<div class="product-item__pic"><img itemprop="image" src="images/slide1.png"></div>
 										<div class="product-item__bottom">
-											<div class="product-item__title">Шелковое прямое платье</div>
+											<div itemprop="name" class="product-item__title">Шелковое прямое платье</div>
 											<div class="product-item__sizes"> S    M    L</div>
 											<div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
 										</div>
 									</a>
                                 </li>
-                                <li class="shop__item">
-                                    <a class="product-item" href="#">
-										<div class="product-item__pic"><img src="images/slide1.png"></div>
-										<div class="product-item__bottom">
-											<div class="product-item__title">Шелковое прямое платье</div>
-											<div class="product-item__sizes"> S    M    L</div>
-											<div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
-										</div>
-									</a>
-                                </li>
-                                <li class="shop__item">
-                                    <a class="product-item" href="#">
-										<div class="product-item__pic"><img src="images/slide2.png"></div>
-										<div class="product-item__bottom">
-											<div class="product-item__title">Шелковое прямое платье</div>
-											<div class="product-item__sizes"> S    M    L</div>
-											<div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
-										</div>
-									</a>
-                                </li>
-                                <li class="shop__item">
-                                    <a class="product-item" href="#">
-										<div class="product-item__pic"><img src="images/slide3.png"></div>
-										<div class="product-item__bottom">
-											<div class="product-item__title">Шелковое прямое платье</div>
-											<div class="product-item__sizes"> S    M    L</div>
-											<div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
-										</div>
-									</a>
-                                </li>
-                                <li class="shop__item">
-                                    <a class="product-item" href="#">
-										<div class="product-item__pic"><img src="images/slide4.png"></div>
-										<div class="product-item__bottom">
-											<div class="product-item__title">Шелковое прямое платье</div>
-											<div class="product-item__sizes"> S    M    L</div>
-											<div class="product-item__price"><span>2 500</span><span class="currency">руб </span></div>
-										</div>
-									</a>
-                                </li>
+                                
                             </ul>
                         </div>
                     </div>

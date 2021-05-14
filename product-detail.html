@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru" class="html_bg_e5e3df">
-	<head>
+	<head itemscope itemtype="http://schema.org/WPHeader">
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title itemprop="headline">Chaika</title>
+		<meta itemprop="description" name="description" content="описание_страницы">
+		<meta itemprop="keywords" name="keywords" content="ключевые_слова_для_страницы">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />
-		<link rel="stylesheet" href="/fonts/stylesheet.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="/fonts/stylesheet.css">
 		<link rel="stylesheet" href="/main.css">
 	</head>
 	<body>
@@ -162,111 +165,113 @@
 				</div>
                 <section class="section section-product-detail">
                     <div class="container">
-                        <div class="section-product-detail__row">
-                            <div class="section-product-detail__coll">
-                                <div class="product-images-wrap">
-                                    <div class="product-images">
-                                        <a data-fancybox="images" href="/images/product-detail/deatil1.jpg" class="product-iamges__link" data-caption="Gray skirt DR-478">
-                                            <img src="/images/product-detail/deatil1.jpg" alt="" class="product-iamge" >
-                                        </a>
-                                        <a data-fancybox="images" href="/images/product-detail/deatil2.jpg" class="product-iamges__link" data-caption="Gray skirt DR-478">
-                                            <img src="/images/product-detail/deatil2.jpg" alt="" class="product-iamge">
-                                        </a>
-                                        <a data-fancybox="images" href="/images/product-detail/deatil3.jpg" class="product-iamges__link" data-caption="Gray skirt DR-478">
-                                            <img src="/images/product-detail/deatil3.jpg" alt="" class="product-iamge">
-                                        </a>
-                                        <a data-fancybox="images" href="/images/product-detail/deatil4.jpg" class="product-iamges__link" data-caption="Gray skirt DR-478">
-                                            <img src="/images/product-detail/deatil4.jpg" alt="" class="product-iamge">
-                                        </a>
+                        <div itemscope itemtype="http://schema.org/Product" class="product-detail">
+                            <div class="section-product-detail__row">
+                                <div class="section-product-detail__coll">
+                                    <div class="product-images-wrap">
+                                        <div class="product-images">
+                                            <a data-fancybox="images" href="/images/product-detail/deatil1.jpg" class="product-iamges__link" data-caption="Gray skirt DR-478">
+                                                <img src="/images/product-detail/deatil1.jpg" alt="" class="product-iamge" >
+                                            </a>
+                                            <a data-fancybox="images" href="/images/product-detail/deatil2.jpg" class="product-iamges__link" data-caption="Gray skirt DR-478">
+                                                <img src="/images/product-detail/deatil2.jpg" alt="" class="product-iamge">
+                                            </a>
+                                            <a data-fancybox="images" href="/images/product-detail/deatil3.jpg" class="product-iamges__link" data-caption="Gray skirt DR-478">
+                                                <img src="/images/product-detail/deatil3.jpg" alt="" class="product-iamge">
+                                            </a>
+                                            <a data-fancybox="images" href="/images/product-detail/deatil4.jpg" class="product-iamges__link" data-caption="Gray skirt DR-478">
+                                                <img src="/images/product-detail/deatil4.jpg" alt="" class="product-iamge">
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="section-product-detail__coll">
-                                <div class="product-info-block">
-                                    <div class="product-info">
-                                        <div class="product-info__row">
-                                            <div class="product-info__coll">
-                                                <div class="product-info__title">Gray skirt</div>
-                                                <div class="product-info__code">DR-478</div>
-                                            </div>
-                                            <div class="product-info__coll">
-                                                <div class="price">
-                                                    <span>2 500</span>
-                                                    <span class="currency">rub</span>
+                                <div class="section-product-detail__coll">
+                                    <div class="product-info-block">
+                                        <div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="product-info">
+                                            <div class="product-info__row">
+                                                <div class="product-info__coll">
+                                                    <h1 itemprop="name" class="product-info__title">Gray skirt</h1>
+                                                    <div class="product-info__code">DR-478</div>
+                                                </div>
+                                                <div class="product-info__coll">
+                                                    <div class="price">
+                                                        <span itemprop="price">2 500</span>
+                                                        <span itemprop="priceCurrency" content="RUB" class="currency">rub</span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="product-desc">
-                                        <div class="product-desc__block">
-                                            <div class="product-text">
-                                                Fabric is smooth and pleasant to the body.<br>  
-                                                Midi length with side zipper.<br>
-                                                Made in Russian.
+                                        <div class="product-desc">
+                                            <div class="product-desc__block">
+                                                <div itemprop="description" class="product-text">
+                                                    Fabric is smooth and pleasant to the body.<br>  
+                                                    Midi length with side zipper.<br>
+                                                    Made in Russian.
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="product-desc__block">
-                                            <div class="composition">
-                                                <span>Composition:</span>
-                                                <span class="color_grey">100% Rayon</span>
+                                            <div class="product-desc__block">
+                                                <div class="composition">
+                                                    <span>Composition:</span>
+                                                    <span class="color_grey">100% Rayon</span>
+                                                </div>
+                                                <div class="care">
+                                                    <span>Care:</span>
+                                                    <span class="color_grey">Dry Clean Only</span>
+                                                </div>
                                             </div>
-                                            <div class="care">
-                                                <span>Care:</span>
-                                                <span class="color_grey">Dry Clean Only</span>
-                                            </div>
-                                        </div>
-                                        <div class="product-desc__block">
-                                            <div class="product-text">
-                                                Fits true to size, take your normal size <br>
-                                                High-rise, cut for a slim fit <br>
-                                                Mid weight, non-stretchy fabric <br>
-                                                Model is 177cm/ 5'10" and is wearning an IT 40
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="product-params">
-                                        <div class="product-params__row">
-                                            <div class="product-params__col">
-                                                <span class="select-size">Select-size:</span>
-                                            </div>
-                                            <div class="product-params__col">
-                                                <div class="sizes">
-                                                    <span class="size size--active">S</span>
-                                                    <span class="size">M</span>
-                                                    <span class="size">L</span>
+                                            <div class="product-desc__block">
+                                                <div class="product-text">
+                                                    Fits true to size, take your normal size <br>
+                                                    High-rise, cut for a slim fit <br>
+                                                    Mid weight, non-stretchy fabric <br>
+                                                    Model is 177cm/ 5'10" and is wearning an IT 40
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="product-params__row">
-                                            <div class="product-params__col">
-                                                <spna class="color">
-                                                    Color:
-                                                </spna>
+                                        <div class="product-params">
+                                            <div class="product-params__row">
+                                                <div class="product-params__col">
+                                                    <span class="select-size">Select-size:</span>
+                                                </div>
+                                                <div class="product-params__col">
+                                                    <div class="sizes">
+                                                        <span class="size size--active">S</span>
+                                                        <span class="size">M</span>
+                                                        <span class="size">L</span>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="product-params__col">
-                                                <div class="silver">
-                                                    <div class="filter-btn">
-                                                        <div class="filter-btn__text">Silver</div>
-                                                        <div class="filter-btn__pic">
-                                                            <img src="/images/arrow-down.png" alt="стрелка вниз" class="filter-btn__img">
+                                            <div class="product-params__row">
+                                                <div class="product-params__col">
+                                                    <spna class="color">
+                                                        Color:
+                                                    </spna>
+                                                </div>
+                                                <div class="product-params__col">
+                                                    <div class="silver">
+                                                        <div class="filter-btn">
+                                                            <div class="filter-btn__text">Silver</div>
+                                                            <div class="filter-btn__pic">
+                                                                <img src="/images/arrow-down.png" alt="стрелка вниз" class="filter-btn__img">
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="product-btn-wrap">
-                                        <div class="product-btn product-btn--add-to-cart">Add to Cart</div>
-                                    </div>
-                                    <div class="product-info__row">
-                                        <div class="product-info__col">
-                                            <span class="share">Share:</span>
+                                        <div class="product-btn-wrap">
+                                            <div class="product-btn product-btn--add-to-cart">Add to Cart</div>
                                         </div>
-                                        <div class="product-info__col">
-                                            <div class="socials">
-                                                <a href="#" class="socials__link">Facebook</a>
-                                                <a href="#" class="socials__link">Vkontakte</a>
-                                                <a href="#" class="socials__link">Pinterest</a>  
+                                        <div class="product-info__row">
+                                            <div class="product-info__col">
+                                                <span class="share">Share:</span>
+                                            </div>
+                                            <div class="product-info__col">
+                                                <div class="socials">
+                                                    <a href="#" class="socials__link">Facebook</a>
+                                                    <a href="#" class="socials__link">Vkontakte</a>
+                                                    <a href="#" class="socials__link">Pinterest</a>  
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
