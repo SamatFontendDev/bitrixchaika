@@ -785,9 +785,6 @@ html, body {
     border-bottom: 1px solid #111;
     outline: none;
   }
-  .label{
-    margin-bottom: 10px;
-  }
   .input-wrap{
     position: relative;
     display: -webkit-box;
@@ -839,7 +836,7 @@ html, body {
   .checkbox{
     display: none;
   }
-  .checkbox-label{
+  .check-box-btn{
     width: 25px;
     height: 25px;
     border: 1px solid #111;
@@ -854,7 +851,7 @@ html, body {
             align-items: center;
     cursor: pointer;
   }
-  .checkbox:checked + .checkbox-label::after{
+  .checkbox:checked + .check-box-btn::after{
     content: '';
     width: 7px;
     height: 7px;
@@ -1072,6 +1069,12 @@ input[placeholder]{
 #filter-btn{
   cursor: pointer;
   border: 1px solid transparent;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+.input{
+  width: 100%;
 }
 /* responsive */
 @media screen and (max-width: 1020px) {
